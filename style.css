@@ -39,8 +39,23 @@ body{
     margin : 0;    
 }
 
-/* # 5 - Inspeccionando elementos y entendiendo el modelo de caja 
-(DevTools) del navegador para inspeccionar el modelo de caja de los elementos de la página web.
-propiedades `margin`, `border`, `padding` y `content`.
+/* # 5 - Inspeccionando elementos y entendiendo el modelo de caja (DevTools) del 
+navegador para inspeccionar el modelo de caja de los elementos de la página web. 
+Propiedades `margin`, `border`, `padding` y `content`. el margen añade espacio 
+externo, el relleno espacio interno, el borde define un contorno, y el contenido 
+es el área donde se muestra el contenido del elemento.
+*/
+
+/* # 6 - Aplicando el modelo de caja en la práctica
+.urgente {
+   margin: 10px;
+   border: 2px solid red;
+   padding: 10px;
+}
+
+Después de guardar los cambios en el archivo CSS, recarga la página en el navegador 
+y observa cómo ha cambiado el elemento seleccionado. El margen añade espacio externo, 
+el borde crea un contorno visual, el relleno añade espacio interno, y el contenido 
+se muestra dentro de estos límites.
 */
 
