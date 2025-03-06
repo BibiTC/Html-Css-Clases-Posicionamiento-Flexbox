@@ -1,14 +1,46 @@
-* { /*Cambio universal*/
-    padding : 0;
-    margin : 0;    
-}
-
 body{
     background-color: black;
     color: #f6f6f6;
 }
 
+/* # 1 - Estilizando elementos con clases CSS*/
+
 .titulo-destaque {
-    color: #22D4FD;    
+    color: #6CC551; /* #22D4FD; */
 }
+
+.texto-destacado {
+    color: #47624F;
+}
+
+.texto-destacado__strong {
+    color: #52AD9C;
+}
+
+/* # 2 - Destacando títulos con CSS*/
+.titulo-blog {
+    color: #9FFCDF;
+}
+
+/* # 3 - Estilos situacionales con clases CSS */
+.urgente {
+    text-align:center;
+    color: red;
+    border :2px solid red;
+    padding: 10px;
+    margin: 10px;
+    text-shadow:1px 1px 0 #ffffff;
+    width:80%;max-width:420px;
+}
+
+/* # 4 - Entendiendo y aplicando el reset CSS */
+* { /*Cambio universal*/
+    padding : 0;
+    margin : 0;    
+}
+
+/* # 5 - Inspeccionando elementos y entendiendo el modelo de caja 
+(DevTools) del navegador para inspeccionar el modelo de caja de los elementos de la página web.
+propiedades `margin`, `border`, `padding` y `content`.
+*/
 
